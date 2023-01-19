@@ -1,0 +1,49 @@
+
+/* This Block is fo the navbar */
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #5a49e3;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #31239b;
+}
+/* ---------------------------*/
+
+
+/*Backgroung across all pages*/
+.background{
+    background-image: url("Images/MiniGymt.png");
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position-x: 50%;
+    background-position-y: -10%;
+}
+/*-----------------------------*/
+
+.signupBox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.signupForm input{
+    width: 50%;
+}
